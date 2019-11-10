@@ -1,0 +1,175 @@
+/*============= COURSE SECTION =============*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
+body{
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+	color: #292929;
+}
+
+/*navigation*/
+.navbar {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+	background: rgba(0,0,0,0.8)!important;
+}
+.navbar-brand img{
+	height: 2rem;
+}
+.navbar-nav li{
+	padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color: white;
+	padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #e03a45;
+}
+	
+.home-inner{
+	background-image: url(img/dog.jpg);
+}
+.caption{
+	width:100%;
+	max-width:100%;
+	position:absolute;
+	top:38%;
+	z-index:1;
+	color:white;
+}
+.caption h1{
+	font-size: 3.8rem;
+	font-weight: 700;
+	letter-spacing: .3rem;
+	text-shadow:.1rem .1rem .8rem black;
+	padding-bottom: 1rem;
+	font-family: 'Liu Jian Mao Cao';
+}
+.caption h3{
+	font-size: 2rem;
+	text-shadow: .1rem .1rem .5rem black;
+	padding-bottom: 1.6rem;
+
+}
+.caption h2{
+	font-size: 1.5rem;
+	text-shadow: .1rem .1rem .3rem black;
+	padding-bottom: 10rem;
+}
+.btn-lg{
+	border-width: medium;
+	border-radius: 0;
+	padding: .6rem 1.3rem;
+	font-size: 1.1rem;
+}
+
+/*-- Rechner Styling--*/
+.narrow{
+	width: 75%;
+	margin: 1.5rem auto;
+	padding-top: 2rem;
+	
+}
+.narrow h1{
+	font-size: 2.4rem;	
+}
+.btn-secondary{
+	border-width: medium;
+	border-radius: 0;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	padding: .6rem 1.2rem;
+	margin: 1rem;
+	color: white;
+	background-color: #e03a45;
+	border-color: #e03a45;
+}
+
+
+/*List*/
+.list{
+	background-color:#fff;
+	margin: 1.5rem auto;
+	width:100%;
+	padding: 2rem;
+	box-sizing: border-box;
+	border-radius: .7rem;
+	box-shadow: 1rem 1rem rgba(0,0,0,1);}
+	
+	/*funktioniert noch nicht*/
+.list .header {
+	font-family: 'Liu Jian Mao Cao';
+	margin: 0 0 3.3rem 0;	
+}
+	
+	/*Items*/
+	.items li:hover .done-button{
+		opacity:1;
+	}
+.items{
+	margin:0;
+	padding:0;
+	list-style-type:none;	
+}
+
+.items .item.done{
+	text-decoration:line-through;
+}
+.items li,
+.item-add .input{
+	border:0;
+	border-bottom:1px dashed #ccc;
+	padding: 5rem 0;
+}
+
+.input{
+	width:100%;
+}
+.input:focus{
+outline:none;
+}
+
+.items .done-button{
+	display:inline-block;
+	font-size: .8em;
+	background-color:#e03a45;
+	padding: 3px 6px;
+	border: 0;
+	opacity: 0.5;
+}
+.submit{
+	border-width: medium;
+	border-radius: 0;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	padding: .6rem 1.2rem;
+	margin: 1rem;
+	color: white;
+	background-color: #e03a45;
+	border-color: #e03a45;
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
